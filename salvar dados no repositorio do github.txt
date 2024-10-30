@@ -1,0 +1,10 @@
+- Comandos para atualizar repositorio
+git init
+git add .
+git commit -m "add 024"
+git branch -M main
+git remote add origin https://github.com/robsonvilar/Flutter
+git push -u origin main
+
+- Comando para apagar todo o repositorio e adicionar novos arquivos
+git push -u origin main --force
